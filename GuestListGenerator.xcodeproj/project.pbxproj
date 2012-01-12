@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550C72E914BF9F8A00398643 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550C72E814BF9F8A00398643 /* Cocoa.framework */; };
+		550C72F314BF9F8B00398643 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 550C72F114BF9F8B00398643 /* InfoPlist.strings */; };
+		550C72F514BF9F8B00398643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550C72F414BF9F8B00398643 /* main.m */; };
+		550C72F914BF9F8B00398643 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 550C72F714BF9F8B00398643 /* Credits.rtf */; };
+		550C72FC14BF9F8B00398643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550C72FB14BF9F8B00398643 /* AppDelegate.m */; };
+		550C72FF14BF9F8B00398643 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550C72FD14BF9F8B00398643 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550C72E414BF9F8A00398643 /* GuestListGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuestListGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550C72E814BF9F8A00398643 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		550C72EB14BF9F8A00398643 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		550C72EC14BF9F8A00398643 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		550C72ED14BF9F8A00398643 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		550C72F014BF9F8B00398643 /* GuestListGenerator-Info.plist */ = {isa = PBXFileReference; path = "GuestListGenerator-Info.plist"; sourceTree = "<group>"; };
+		550C72F214BF9F8B00398643 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		550C72F414BF9F8B00398643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		550C72F614BF9F8B00398643 /* GuestListGenerator-Prefix.pch */ = {isa = PBXFileReference; path = "GuestListGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		550C72F814BF9F8B00398643 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		550C72FA14BF9F8B00398643 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		550C72FB14BF9F8B00398643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		550C72FE14BF9F8B00398643 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550C72E114BF9F8A00398643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550C72E914BF9F8A00398643 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550C72D914BF9F8A00398643 = {
+			isa = PBXGroup;
+			children = (
+				550C72EE14BF9F8B00398643 /* GuestListGenerator */,
+				550C72E714BF9F8A00398643 /* Frameworks */,
+				550C72E514BF9F8A00398643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550C72E514BF9F8A00398643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550C72E414BF9F8A00398643 /* GuestListGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550C72E714BF9F8A00398643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550C72E814BF9F8A00398643 /* Cocoa.framework */,
+				550C72EA14BF9F8A00398643 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		550C72EA14BF9F8A00398643 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550C72EB14BF9F8A00398643 /* AppKit.framework */,
+				550C72EC14BF9F8A00398643 /* CoreData.framework */,
+				550C72ED14BF9F8A00398643 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		550C72EE14BF9F8B00398643 /* GuestListGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				550C72FA14BF9F8B00398643 /* AppDelegate.h */,
+				550C72FB14BF9F8B00398643 /* AppDelegate.m */,
+				550C72FD14BF9F8B00398643 /* MainMenu.xib */,
+				550C72EF14BF9F8B00398643 /* Supporting Files */,
+			);
+			path = GuestListGenerator;
+			sourceTree = "<group>";
+		};
+		550C72EF14BF9F8B00398643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550C72F014BF9F8B00398643 /* GuestListGenerator-Info.plist */,
+				550C72F114BF9F8B00398643 /* InfoPlist.strings */,
+				550C72F414BF9F8B00398643 /* main.m */,
+				550C72F614BF9F8B00398643 /* GuestListGenerator-Prefix.pch */,
+				550C72F714BF9F8B00398643 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550C72E314BF9F8A00398643 /* GuestListGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550C730214BF9F8B00398643 /* Build configuration list for PBXNativeTarget "GuestListGenerator" */;
+			buildPhases = (
+				550C72E014BF9F8A00398643 /* Sources */,
+				550C72E114BF9F8A00398643 /* Frameworks */,
+				550C72E214BF9F8A00398643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuestListGenerator;
+			productName = GuestListGenerator;
+			productReference = 550C72E414BF9F8A00398643 /* GuestListGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550C72DB14BF9F8A00398643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Blue Hawk Solutions inc.";
+			};
+			buildConfigurationList = 550C72DE14BF9F8A00398643 /* Build configuration list for PBXProject "GuestListGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 550C72D914BF9F8A00398643;
+			productRefGroup = 550C72E514BF9F8A00398643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550C72E314BF9F8A00398643 /* GuestListGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550C72E214BF9F8A00398643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550C72F314BF9F8B00398643 /* InfoPlist.strings in Resources */,
+				550C72F914BF9F8B00398643 /* Credits.rtf in Resources */,
+				550C72FF14BF9F8B00398643 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550C72E014BF9F8A00398643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550C72F514BF9F8B00398643 /* main.m in Sources */,
+				550C72FC14BF9F8B00398643 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		550C72F114BF9F8B00398643 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550C72F214BF9F8B00398643 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		550C72F714BF9F8B00398643 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550C72F814BF9F8B00398643 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		550C72FD14BF9F8B00398643 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550C72FE14BF9F8B00398643 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550C730014BF9F8B00398643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		550C730114BF9F8B00398643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		550C730314BF9F8B00398643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuestListGenerator/GuestListGenerator-Prefix.pch";
+				INFOPLIST_FILE = "GuestListGenerator/GuestListGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		550C730414BF9F8B00398643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuestListGenerator/GuestListGenerator-Prefix.pch";
+				INFOPLIST_FILE = "GuestListGenerator/GuestListGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550C72DE14BF9F8A00398643 /* Build configuration list for PBXProject "GuestListGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550C730014BF9F8B00398643 /* Debug */,
+				550C730114BF9F8B00398643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550C730214BF9F8B00398643 /* Build configuration list for PBXNativeTarget "GuestListGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550C730314BF9F8B00398643 /* Debug */,
+				550C730414BF9F8B00398643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550C72DB14BF9F8A00398643 /* Project object */;
+}
