@@ -30,10 +30,6 @@
 -(IBAction)processData:(id)sender{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.responseData = [NSMutableData data];
-    if ([defaults objectForKey:@"ID"] != nil) {
-        inputBox.stringValue = [defaults objectForKey:@"ID"];
-        authBox.stringValue = [defaults objectForKey:@"AUTH"];
-    }
 
     NSString *s = [NSString stringWithFormat:@"https://graph.facebook.com/%@/attending?access_token=%@", inputBox.stringValue, authBox.stringValue];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:s]];
